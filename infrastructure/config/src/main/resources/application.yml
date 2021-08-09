@@ -16,9 +16,9 @@ app:
 spring:
   application:
     name: config
-  cloud:
-    profiles:
+  profiles:
       active: native
+  cloud:
     config:
       server:
         native:
